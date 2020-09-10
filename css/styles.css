@@ -89,11 +89,6 @@ body{
     padding: 10px 300px 0px; 
 }
 
-.information {
-    width: 460px;
-    padding-top: 100px;
-}
-
 .info-customers {
 
     padding-top: 100px;
@@ -123,6 +118,26 @@ body{
     font-size: 23px;
 }
 
+.principal {
+    width: 1180px;
+    overflow: hidden;
+    height: 700px;
+}
+
+.information {
+    padding-top: 120px;
+    width: 480px;
+    float:left;
+}
+
+.image {
+    float: right; 
+    width: 695px;
+}
+
+.img-right {
+    width: 695px;
+}
 .text-gallery {
     color: var(--gris);
     font-family: 'Brown Light';
@@ -136,8 +151,7 @@ body{
 }
 
 .container-product {
-    display: flex;
-    flex-flow: row wrap;
+    padding: 10px 300px 0px; 
 }
 
 .card {
@@ -171,17 +185,6 @@ table {
 
 table:hover {
     border: 5px solid rgb(255, 255, 255);
-}
-
-.image {
-width: 20px;
-height: 20px;
-float: right;
-}
-
-.img-registry {
-    width: 20px;
-    height: auto;
 }
 
 .column {
