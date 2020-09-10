@@ -55,6 +55,7 @@ body{
     display: inline;
     text-decoration: none;  
     padding-bottom: 50px;
+    padding: 0 5px;
 }
 
 .menu ul li a {
@@ -83,9 +84,24 @@ body{
     padding: 10px 300px 0px; 
 }
 
+.container-customers {
+    background-color:#fafaff;
+    padding: 10px 300px 0px; 
+}
+
 .information {
     width: 460px;
     padding-top: 100px;
+}
+
+.info-customers {
+
+    padding-top: 100px;
+    text-align: center;
+}
+
+.info-docs {
+    padding-top: 200px;
 }
 
 .title {
@@ -95,11 +111,22 @@ body{
 
 }
 
+.title-customers , .title-docs{
+    color: var(--azulOscuro);
+    font-family: 'Brown Light';
+    font-size: 48px;
+}
+
 .text {
     color: var(--gris);
     font-family: 'Brown Light';
     font-size: 23px;
+}
 
+.text-gallery {
+    color: var(--gris);
+    font-family: 'Brown Light';
+    font-size: 16px;
 }
 
 .text-reg {
@@ -122,22 +149,38 @@ body{
 
 .container-customers {
     text-align: center;
-    background-color: aqua;
+}
+
+.container-docs{
+    padding: 10px 300px 0px; 
+    background-color: #fafaff;
+}
+
+.gallery {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 table {
     width: 100%;
     align-items: center;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.87);
+    background-color:#fafaff;
   }
 
 table:hover {
     border: 5px solid rgb(255, 255, 255);
-  }
+}
 
-  img {
-    width: 100%;
+.image {
+width: 20px;
+height: 20px;
+float: right;
+}
+
+.img-registry {
+    width: 20px;
     height: auto;
 }
 
@@ -146,7 +189,7 @@ table:hover {
     width: 25%;
     margin-top:17px;
     padding-top:10px;
-  }
+}
 
 .footer {
     background-color: #212240;
@@ -164,3 +207,5 @@ color: #ffffff;
 font-size: 16px;
 font-family: 'Brown Light';
 }
+
+
