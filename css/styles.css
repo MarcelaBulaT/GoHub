@@ -1,0 +1,166 @@
+:root {
+    --morado:#845cff;
+    --azulOscuro:#32325d;
+    --gris:#525f7f;
+}
+
+@font-face {
+    font-family: 'Brown Light';
+    src: url('../fonts/Brown-Light.eot');
+    src: url('../fonts/Brown-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Brown-Light.woff') format('woff'),
+    url('../fonts/Brown-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Brown Bold';
+    src: url('../fonts/Brown-Bold.eot');
+    src: url('../fonts/Brown-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Brown-Bold.woff') format('woff'),
+    url('../fonts/Brown-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+@font-face {
+    font-family: 'Brown Regular';
+    src: url('../fonts/Brown-Regular.eot');
+    src: url('../fonts/Brown-Regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Brown-Regular.woff') format('woff'),
+    url('../fonts/Brown-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    }
+
+body{
+ background-color: #ffffff;   
+}
+
+.logo {
+    float: left;
+    width:152px;
+    height:46px;
+}
+
+.menu {
+    color:var(--azulOscuro);
+    float: right;
+    font-family: 'Brown Bold';
+    font-size: 19px;
+}
+
+.menu ul li {
+    display: inline;
+    text-decoration: none;  
+    padding-bottom: 50px;
+}
+
+.menu ul li a {
+    color:var(--azulOscuro);
+    text-decoration:none;
+}
+
+.btnMorado {
+    background-color: var(--morado);
+    color: #ffffff;
+    border:none;
+    border-radius: 3px;
+    font-family: 'Brown Bold';
+    font-size: 15px;
+    width:142px;
+    height:42px;
+}
+
+.btnSign-in{
+    width:102px;
+    height:42px; 
+    font-size: 19px;  
+}
+
+.container {
+    padding: 10px 300px 0px; 
+}
+
+.information {
+    width: 460px;
+    padding-top: 100px;
+}
+
+.title {
+    color: var(--azulOscuro);
+    font-family: 'Brown Bold';
+    font-size: 48px;
+
+}
+
+.text {
+    color: var(--gris);
+    font-family: 'Brown Light';
+    font-size: 23px;
+
+}
+
+.text-reg {
+    color: #32325d;
+    font-family: 'Brown Regular';
+    font-size: 19px;
+}
+
+.container-product {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    width: 300px;
+    height: 600px;
+    background-color: #ffffff;
+    margin:auto;
+}
+
+.container-customers {
+    text-align: center;
+    background-color: aqua;
+}
+
+table {
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.87);
+  }
+
+table:hover {
+    border: 5px solid rgb(255, 255, 255);
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    margin-top:17px;
+    padding-top:10px;
+  }
+
+.footer {
+    background-color: #212240;
+    height: 600px;
+    padding: 10px 300px 0px; 
+}
+
+.social-media a i {
+color: #555377;
+}
+
+.footer a {
+text-decoration: none;
+color: #ffffff;
+font-size: 16px;
+font-family: 'Brown Light';
+}
