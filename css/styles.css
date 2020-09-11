@@ -81,12 +81,12 @@ body{
 }
 
 .container {
-    padding: 10px 300px 0px; 
+    padding: 10px 240px 0px; 
 }
 
 .container-customers {
     background-color:#fafaff;
-    padding: 10px 300px 0px; 
+    padding: 10px 240px 0px; 
 }
 
 .info-customers {
@@ -103,7 +103,6 @@ body{
     color: var(--azulOscuro);
     font-family: 'Brown Bold';
     font-size: 48px;
-
 }
 
 .title-customers , .title-docs{
@@ -119,9 +118,15 @@ body{
 }
 
 .principal {
-    width: 1180px;
+    width: 1100px;
     overflow: hidden;
     height: 700px;
+}
+
+.principal-docs {
+    width: 1000px;
+    overflow: hidden;
+    height: 500px;
 }
 
 .information {
@@ -130,14 +135,22 @@ body{
     float:left;
 }
 
-.image {
-    float: right; 
-    width: 695px;
+.info-docs{
+    width: 480px;
+    float:left;
 }
 
-.img-right {
-    width: 695px;
+.image-right {
+    float: right; 
+    width: 620px;
 }
+
+.img-registry {
+    padding-top: 300px;
+    float: right; 
+    width: 500px;
+}
+
 .text-gallery {
     color: var(--gris);
     font-family: 'Brown Light';
@@ -148,6 +161,7 @@ body{
     color: #32325d;
     font-family: 'Brown Regular';
     font-size: 19px;
+    float: right;
 }
 
 .container-product {
@@ -166,10 +180,9 @@ body{
 }
 
 .container-docs{
-    padding: 10px 300px 0px; 
     background-color: #fafaff;
+    padding: 10px 300px 0px; 
 }
-
 .gallery {
     text-align: center;
     margin-top: 100px;
@@ -197,7 +210,7 @@ table:hover {
 .footer {
     background-color: #212240;
     height: 600px;
-    padding: 10px 300px 0px; 
+    padding: 10px 240px 0px; 
 }
 
 .social-media a i {
